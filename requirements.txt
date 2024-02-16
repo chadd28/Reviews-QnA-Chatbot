@@ -3,3 +3,6 @@ pandas
 langchain
 langchain_experimental
 numpy
+requests
+BeautifulSoup
+time
