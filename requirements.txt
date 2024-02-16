@@ -5,3 +5,4 @@ langchain_experimental
 numpy
 requests
 beautifulsoup4
+openai
