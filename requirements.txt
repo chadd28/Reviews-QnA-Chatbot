@@ -4,5 +4,5 @@ langchain
 langchain_experimental
 numpy
 requests
-Beautiful Soup 4
+beautifulsoup4
 time
