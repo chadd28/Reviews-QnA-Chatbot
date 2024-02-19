@@ -16,6 +16,8 @@ OPEN_API_KEY = st.sidebar.text_input('OpenAI API Key', type='password')
 st.sidebar.markdown("Where's My OpenAI API Key? https://platform.openai.com/api-keys")
 ACTIVELOOP_TOKEN = st.sidebar.text_input('ActiveLoop Token', type='password')
 st.sidebar.markdown("Where's My ActiveLoop Token? https://app.activeloop.ai/")
+ACTIVELOOP_DATASET = st.sidebar.text_input('ActiveLoop Dataset Name', value="text_embedding_reviews")
+st.sidebar.markdown("Change name if you run into errors.")
 
 uploaded_file = st.file_uploader('Upload the csv file', type=['csv'])
 
@@ -35,7 +37,7 @@ def load_openai_deeplake(df):
 
         # Specify your organization ID and dataset name
         my_activeloop_org_id = "applegpt2023"
-        my_activeloop_dataset_name = "text_embedding_restaurant_reviews"
+        my_activeloop_dataset_name = ACTIVELOOP_DATASET
         dataset_path = f"hub://{my_activeloop_org_id}/{my_activeloop_dataset_name}"
 
         # Initialize Deep Lake vector database
