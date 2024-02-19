@@ -8,3 +8,4 @@ beautifulsoup4
 openai
 tabulate
 deeplake[enterprise]
+tiktoken
