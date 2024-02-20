@@ -5,7 +5,7 @@ langchain_experimental
 numpy
 requests
 beautifulsoup4
-openai
+openai==0.28
 tabulate
 deeplake[enterprise]
 tiktoken
