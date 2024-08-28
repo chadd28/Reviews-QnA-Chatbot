@@ -1,0 +1,5 @@
+load_openai_deeplake function: initializes the OpenAI API and Deep Lake database using provided API keys. 
+- Embeddings: Uses OpenAIEmbeddings to embed review texts.
+- Text Splitting: Uses RecursiveCharacterTextSplitter to split long texts into smaller chunks for better processing.
+- Vector Storage: Adds these chunks to a vector database (DeepLake) for efficient retrieval.
+- QnA Chain: Initializes a question-answering chain using the embedded texts and OpenAI's model, which can generate responses based on the context retrieved from the vector store.
