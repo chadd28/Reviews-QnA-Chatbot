@@ -16,7 +16,7 @@ if st.button("Scrape Reviews"):
         r = requests.get(root)
         print(r.status_code)
         soup=BeautifulSoup(r.text, 'html.parser')
-        divs = soup.findAll(class_="comment__09f24__D0cxf css-qgunke")
+        divs = soup.findAll(class_="comment__09f24__D0cxf y-css-h9c2fl")
         reviews = []
         for div in divs:
             reviews.append(div.find('span').text)
