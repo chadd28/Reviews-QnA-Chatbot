@@ -2,7 +2,7 @@
 
 hosted on streamlit: https://reviews-qna-chatbot.streamlit.app/
 
-- Developed a web application using Python and deployed with Streamlit to scrape, analyze, and interact with Yelp restaurant reviews.
+- Developed a web application using Python and Streamlit to scrape, analyze, and interact with Yelp restaurant reviews.
 - Built a question-and-answer chatbot interface powered by OpenAI's GPT-3.5 Turbo.
 - Used data manipulation and visualization tools like Pandas and NumPy to clean, organize, and analyze large datasets of customer reviews
 - Leveraged OpenAI API and Deep Lake vector databases for natural language processing.
